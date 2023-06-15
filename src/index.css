@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sidebarIcon{
+    @apply w-14 p-2 mb-6 rounded-[2rem] bg-primary fill-white hover:rounded-2xl shadow-lg transition-all duration-300 cursor-pointer
+}
+
+.plante{
+    @apply bg-gradient-to-t from-green-600 to-green-500 rounded p-1 text-white
+}
+.eau{
+    @apply bg-gradient-to-t from-blue-600 to-blue-500 rounded p-1 text-white
+}
+.acier{
+    @apply bg-gradient-to-t from-gray-500 to-gray-400 rounded p-1 text-white
+}
+.combat{
+    @apply bg-gradient-to-t from-amber-600 to-amber-500 rounded p-1 text-white
+}
+.dragon{
+    @apply bg-gradient-to-t from-blue-800 to-blue-700 rounded p-1 text-white
+}
+.électrik{
+    @apply bg-gradient-to-t from-yellow-400 to-yellow-300 rounded p-1 text-white
+}
+.feu{
+    @apply bg-gradient-to-t from-red-700 to-orange-600 rounded p-1 text-white
+}
+.fée{
+    @apply bg-gradient-to-t from-pink-500 to-pink-400 rounded p-1 text-white
+}
+.glace{
+    @apply bg-gradient-to-t from-blue-400 to-blue-200 rounded p-1 text-white
+}
+.insecte{
+    @apply bg-gradient-to-t from-lime-600 to-lime-400 rounded p-1 text-white
+}
+.normal{
+    @apply bg-gradient-to-t from-stone-400 to-stone-300 rounded p-1 text-white
+}
+.poison{
+    @apply bg-gradient-to-t from-purple-600 to-purple-500 rounded p-1 text-white
+}
+.psy{
+    @apply bg-gradient-to-t from-fuchsia-600 to-fuchsia-400 rounded p-1 text-white
+}
+.roche{
+    @apply bg-gradient-to-t from-orange-800 to-orange-700 rounded p-1 text-white
+}
+.sol{
+    @apply bg-gradient-to-t from-amber-800 to-amber-700 rounded p-1 text-white
+}
+.spectre{
+    @apply bg-gradient-to-t from-indigo-700 to-indigo-600 rounded p-1 text-white
+}
+.ténèbres{
+    @apply bg-gradient-to-t from-gray-700 to-gray-600 rounded p-1 text-white
+}
+.vol{
+    @apply bg-gradient-to-t from-sky-500 to-sky-400 rounded p-1 text-white
+}
